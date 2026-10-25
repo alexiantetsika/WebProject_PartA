@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <!--Responsive for phones and tablets-->
+        <meta name="viewport" content="width = device=width, initial-scale = 1.0" />
+
+        <!--Tittle-->
+        <title> An E-Learning Platform </title>
+
+        <!-- CSS files enable-->
+           <link rel="stylesheet" href="assets/css/reset.css" />
+           <link rel="stylesheet" href="assets/css/theme.css" />
+           <link rel="stylesheet" href="assets/css/layout.css" />
+           <link rel="stylesheet" href="assets/css/components.css" />
+
+
+
+
+    </head>
+
+    <body>
+
+    <header class="site-header">
+     <div class="site-header.container">
+        <a href="index.html" class="site-logo">
+            <img src="assets/img/logo.jpg" alt="E-Learning">
+        </a>
+
+
+    <!--Navigation to main page when you press the logo image-->
+      <div class="logo">
+        <a href="assets/img/logo.jpg" alt=" E-Learning" >
+         </a>
+
+         <!--mobile menu
+         <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu">
+            ☰
+         </button>
+        </div> -->
+
+    <!--MENU,Navigation-->
+    <nav class="nav" id="main-nav">
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href = "courses.html">Courses</a></li>
+            <li><a href = "books.html">Books & Videos</a></li>
+            <li><a href = "about.html">About us</a></li>
+            
+            <li>
+              <a href="register.html" class="btn-primary">Register</a>
+              </li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+    <main>
+
+    <!--Class Hero-->
+    <section class="hero-banner">
+        
+        <h2>Use the E-Learning Platform to Learn Computer Science Online.</h2>  <!--Tittle-->
+        <p>Here you will find Courses, Books and Videos suitable for your education.</p> <!--Description-->
+        <a href = "register.html" class="btn-primary">Get Starded</a></li> <!--Button that leades you to the register platform-->
+        
+    </section>
+
+    <!--Class Why-->
+    <section class="why-section">
+        <div class="container section-box">
+
+        <h2> Why choose this Platform? </h2> <!--Tittle-->
+        <p class="why-subtitle">
+            A friendy and modern environment for all students interested in learning Computer Science.
+        </p>
+        </div>
+    </section>
+
+    <!--How it works class-->
+    <section class="how-it-works">
+        <div class="container section-box">
+        <h2>How this Platform works</h2>
+        <p class="how-subtitle">
+            Star learning by following just three steps.
+        </p>
+        </div>
+        <div class="step-grid">
+
+            <!--Step 1-->
+            <div class="step-card">
+                <span class="step-number">1</span>
+                <h3>Create your account</h3>
+                <p> Create a free account and start organizing your personal profile </p>
+            </div>
+
+            <!--Steo 2-->
+            <div class="step-card">
+                <span class="step-number">2</span>
+                <h3>Choose a Course</h3>
+                <p>Check out the courses we offer and choose the one you want to learn.</p>
+            </div>
+
+            <!--Step 3-->
+            <div class="step-card">
+                <span class="step-number">3</span>
+                <h3>Start Learning</h3>
+                <p>Watch videos, read the books and start learning at your own pace.</p>
+            </div>
+            
+        </div>
+    </section>
+
+    <section class="featured-courses">
+         <div class="container section-box">
+        <h2>Featured Courses</h2>
+        <p class="section-subtitle">
+             These are the courses that most users select.
+        </p>
+        </div>
+
+        <div class="courses-grid">
+            <!--Course card-->
+            <article class="course-card">
+                <div class="course-tag">
+                    Python
+                </div>
+                <h3>Start Learning Python.</h3>
+                <p> Python is a versatile and easy-to-learn language that lets you work quickly and integrate systems more effectively.</p>
+
+                <div class="course-meta">
+                    <span>Beginner</span>
+                    <span>10 Lessons</span>
+                </div>
+
+                <a href="course-details.html" class="course-link">
+                    View Course
+                </a>
+            </article>
+
+             <!--Course card-->
+            <article class="course-card">
+                <div class="course-tag">
+                    Java
+                </div>
+                <h3>Start Learning Java.</h3>
+                <p> Java is a set of computer software and specifications that provides a software platform for developing application software and deploying it in a cross-platform computing environment.</p>
+
+                <div class="course-meta">
+                    <span>Beginner</span>
+                    <span>15 Lessons</span>
+                </div>
+
+                <a href="course-details.html" class="course-link">
+                    View Course
+                </a>
+            </article>
+
+              <!--Course card-->
+            <article class="course-card">
+                <div class="course-tag">
+                    C++
+                </div>
+                <h3>Start Learning C++.</h3>
+                <p> C++ is a cross-platform, high-performance programming language.</p>
+
+                <div class="course-meta">
+                    <span>Beginner</span>
+                    <span>20 Lessons</span>
+                </div>
+
+                <a href="course-details.html" class="course-link">
+                    View Course
+                </a>
+            </article>
+
+        </div>
+
+        <div class="courses-cta">
+            <a href="courses.html" class="btn-secondary">
+                See all courses
+            </a>
+        </div>
+    </section>
+     </main>
+
+     <script src="assets/js/data/courses.js"></script>
+     <script src="assets/js/ui/menu.js"></script>
+<script src="assets/js/app.js"></script>
+    </body>
+
+  
+</html>

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+
+        <!--Responsive for phones and tablets-->
+        <meta name="viewport" content="width = device=width, initial-scale = 1.0" />
+
+        <!--Tittle-->
+        <title> Courses | E-Learning  </title>
+
+        <!-- CSS files enable-->
+           <link rel="stylesheet" href="assets/css/reset.css" />
+           <link rel="stylesheet" href="assets/css/theme.css" />
+           <link rel="stylesheet" href="assets/css/layout.css" />
+           <link rel="stylesheet" href="assets/css/components.css" />
+
+
+
+
+    </head>
+
+    <body>
+
+    <header class="site-header">
+     <div class="site-header.container">
+        <a href="index.html" class="site-logo">
+             <img src="assets/img/logo.jpg" alt="E-Learning">
+        </a>
+        
+
+
+    <!--Navigation to main page when you press the logo image-->
+      <div class="logo">
+        <a href="assets/img/logo.jpg" alt=" E-Learning" >
+         </a>
+
+         <!--mobile menu
+         <button class="menu-toggle" id="menu-toggle" aria-label="Open Menu">
+            ☰
+         </button>
+        </div> -->
+
+    <!--MENU,Navigation-->
+    <nav class="nav" id="main-nav">
+        <ul>
+            <li><a href ="index.html">Home</a></li>
+            <li><a href = "courses.html">Courses</a></li>
+            <li><a href = "books.html">Books & Videos</a></li>
+            <li><a href = "about.html">About us</a></li>
+            
+            <li>
+              <a href="register.html" class="btn-primary">Register</a>
+              </li>
+        </ul>
+    </nav>
+    </div>
+    </header>
+
+    <main class="container">
+        <section class="courses-hero section-box">
+            <h2 class="page-header">All Courses</h2>
+            
+        </section>
+
+        <!--Courses Grid-->
+        <section class="courses-grid-container">
+            <div class="courses-grid" id="coursesGrid"></div>
+        </section>
+ </main>
+
+
+ <!--JS CODE-->
+ <script src="assets/js/ui/menu.js"></script>
+ <script src="assets/js/data/courses.js"></script>
+ <script src="assets/js/app.js"></script>
+
+ </body>
+</html>
+

@@ -1,11 +1,5 @@
 # WebProject_PartA
 WebProject_PartA is the front-end implementation of an e-learning platform using HTML, CSS, and JavaScript.
 
-WebProject_PartA
-Υλοποιείται το πρώτο μέρος της εργασίας για την υπηρεσία e-learning. Σε αυτό το μέρος έχει υλοποιηθεί το  κομμάτι.
-------------------------------------------------------------------------------------------------------------------
-Description: Η εργασία αφορά μια πλατφόρμα e-learning με HTML, CSS και JavaScript.
-Ο χρήστης μπορεί να περιηγηθεί σε σελίδες μαθημάτων, βιβλίων, λεπτομερειών περιεχομένου και να κάνει register.
-Εκτέλεση: 'Ανοιγμα του index.html σε κάποιο browser.
-Περιεχόμενα: index.html, courses.html, books.html, course-details.html, register.html , about.html.
+
 
